@@ -1,0 +1,299 @@
+p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.bio__header__section__image {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 135rem;
+}
+
+.bio__header__paragraph {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.bio__video__wrapper {
+    position: relative;
+    margin: 5rem auto;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.bio__video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+@media(min-width: 48rem) {
+    .bio__video {
+        width: 90%;
+        height: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.bio__video__bottom {
+    width: 100%;
+}
+
+@media(min-width: 48rem) {
+    .bio__video__bottom {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+.bio__video__paragraph {
+    text-align: center;
+    margin: 6rem 0;
+}
+
+.bio__video__figure {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.bio__video__image {
+    display: block;
+    width: 100%;
+}
+
+.bio__video__figcaption {
+    margin: 0.5rem 0;
+    text-align: right;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.bio__header {
+    margin: 0;
+}
+
+.bio__split {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(min-width: 48rem) {
+    .bio__split {
+        margin: 8rem auto;
+    }
+
+}
+
+.bio__split__paragraph {
+    order: 1;
+}
+
+@media(min-width: 48rem) {
+    .bio__split__paragraph {
+        width: 45%;
+        order: 0;
+    }
+}
+
+.bio__split__figure {
+    width: 100%;
+    order: 0;
+}
+
+@media(min-width: 48rem) {
+    .bio__split__figure {
+        width: 40%;
+        order: 1;
+    }
+}
+
+.bio__split__img {
+    display: block;
+    width: 100%;
+}
+
+.bio__quote__figure {
+    font-family: "moderatlight";
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin: 4rem auto;
+}
+
+@media(min-width: 48rem) {
+    .bio__quote__figure {
+        margin: 0rem auto;
+    }
+}
+
+.bio__quote__blockquote {
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    margin: 0;
+}
+
+@media(min-width: 48rem) {
+    .bio__quote__blockquote {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.bio__quote__figcaption {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin: 1.5rem 0;
+}
+
+.bio__section__the-beauty-of-nature {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+@media(min-width: 48rem) {
+    .bio__section__the-beauty-of-nature {
+        margin: 8rem auto;
+    }
+}
+
+.bio__the-beauty-of-nature__header__figure {
+    width: 100%;
+}
+
+@media(min-width: 48rem) {
+    .bio__the-beauty-of-nature__header__figure {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+.bio__the-beauty-of-nature__header__image {
+    display: block;
+    width: 100%;
+}
+
+.the-beauty-of-nature__header__figcaption {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-align: right;
+}
+
+.bio__the-beauty-of-nature {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+@media(min-width: 48rem) {
+    .bio__the-beauty-of-nature {
+        margin: 6rem auto;
+        width: 47%;
+    }
+}
+
+.bio__the-beauty-of-nature__footer__figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bio__the-beauty-of-nature__footer__figure>* {
+    margin: 1rem 0;
+}
+
+.bio__the-beauty-of-nature__footer__image__left {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 48rem) {
+    .bio__the-beauty-of-nature__footer__image__left {
+        width: 35%;
+    }
+}
+
+.bio__the-beauty-of-nature__footer__image__right {
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 48rem) {
+    .bio__the-beauty-of-nature__footer__image__right {
+        width: 55%;
+    }
+}
+
+.bio__diversity__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(min-width: 48rem) {
+    .bio__diversity__content__figure {
+        width: 42%;
+    }
+}
+
+.bio__diversity__content__image {
+    display: block;
+    width: 100%;
+}
+
+.bio__diversity__content {
+    margin: 1rem 0;
+}
+
+@media(min-width: 48rem) {
+    .bio__diversity__content {
+        width: 42%;
+        margin: 0;
+    }
+}
+
+.bio__diversity__footer__figure {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(min-width: 48rem) {
+    .bio__diversity__footer__figure {
+        margin-top: 6rem;
+    }
+}
+
+.bio__diversity__footer__image {
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+}
+
+@media(min-width: 48rem) {
+    .bio__diversity__footer__image {
+        width: 26%;
+        margin: 0;
+    }
+}

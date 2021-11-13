@@ -1,0 +1,16 @@
+.atelier__header {
+    margin: 3rem 0;
+}
+
+.atelier__header__paragraph {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+@media(min-width: 48rem) {
+    .atelier__header__paragraph {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+}

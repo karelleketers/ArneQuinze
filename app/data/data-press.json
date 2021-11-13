@@ -1,0 +1,43 @@
+[{
+    "header": "Press releases",
+    "articles": [{
+        "intro": "Arne Quinze builds Lupine Tower for Frieze Sculpture, Regent's Park",
+        "title": "Frieze — London",
+        "description": "This year, Frieze Sculpture returns to The Regent’s Park from 5 – 18 October, featuring 12...",
+        "thumbnail": "static/img/imgs/press-001.jpg",
+        "type": "press release"
+    }, {
+        "intro": "The first permanent public art sculpture by Arne Quinze in France",
+        "title": "The Beautiful Dreamer — Paris",
+        "description": "Arne Quinze continues his journey to reshape our cities into more human environments with this..",
+        "thumbnail": "static/img/imgs/press-002.jpg",
+        "type": "press release"
+    }, {
+        "intro": "Arne Quinze press release",
+        "title": "My secret Garden — Valencia",
+        "description": "“My Secret Garden Valencia” presents a series of six public sculptures that will enter into...",
+        "thumbnail": "static/img/imgs/press-003.jpg",
+        "type": "press release"
+    }]
+}, {
+    "header": "In the press",
+    "articles": [{
+        "intro": "Frieze Sculpture Park opens its doors to nature",
+        "title": "Financial Times about Frieze Sculpture",
+        "description": "An upbeat free-to-wander exhibition combines playfulness with serious concerns of contemporary...",
+        "thumbnail": "static/img/imgs/press-004.jpg",
+        "type": "article"
+    }, {
+        "intro": "Visit Arne Quinze's Secret Garden until the 1st of March",
+        "title": "My Secret Garden, Valencia — Extended",
+        "description": "Since February 2019, the open-air exhibition of Arne Quinze already attracted 3 million visitors!...",
+        "thumbnail": "static/img/imgs/press-005.jpg",
+        "type": "website"
+    }, {
+        "intro": "An inspirational tour with Belgian most famous hip hop DJ",
+        "title": "DJ Lefto in our studio",
+        "description": "In this RTBF series, Hadja Lahbib follows Lefto visiting some of his friends artists and...",
+        "thumbnail": "static/img/imgs/press-006.jpg",
+        "type": "website"
+    }]
+}]

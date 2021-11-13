@@ -1,0 +1,107 @@
+h2 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: "moderatlight";
+    color: #787878;
+    margin: 0;
+}
+
+.contact--top>* {
+    margin: 1rem 0;
+}
+
+.contact__header__paragraph {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: initial;
+}
+
+@media(min-width: 48rem) {
+    .contact__header__paragraph {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+
+}
+
+.contact--bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact__details__text {
+    margin: 1rem 0;
+}
+
+.contact__details {
+    width: 100%;
+}
+
+@media(min-width: 48rem) {
+    .contact__details {
+        width: 30%;
+    }
+}
+
+.contact--bottom__contact__link {
+    color: initial;
+    font-family: "moderatlight";
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-bottom: 0.15rem solid rgba(0, 0, 0, 0);
+}
+
+.contact--bottom__contact__link:hover {
+    border-bottom: 0.15rem solid #003cff;
+    color: #003cff;
+}
+
+input[type=email].contact__form__email {
+    background: inherit;
+    width: 80%;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    outline: none;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-family: "moderatregular"
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-family: "moderatregular"
+}
+
+.contact__form__message {
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    margin: 0.5rem 0;
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: "moderatregular"
+}
+
+.contact__form__button {
+    border: none;
+    outline: none;
+    background: #003cff;
+    font-family: "moderatregular";
+    color: #f9f9f9;
+    padding: 0.8rem 1.3rem;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    display: block;
+}
+
+.contact--bottom__time {
+    color: #787878;
+    font-family: "moderatlight";
+}
